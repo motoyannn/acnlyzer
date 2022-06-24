@@ -1,7 +1,10 @@
 {
-  "name": "applyzer",
+  "name": "acnlyzer",
   "version": "0.0.1",
-  "main": "bin/cli.js",
+  "main": "bin/acnlyzer.js",
+  "bin": {
+    "acnlyzer": "bin/cli.js"
+  },
   "repository": "git@github.com:motoyannn/applyzer.git",
   "author": "Motoya Kondo <motoya.kon@gmail.com>",
   "license": "MIT",

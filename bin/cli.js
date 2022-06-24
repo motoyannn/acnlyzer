@@ -1,1 +1,2 @@
-require('../dist/main.js');
+/* eslint-disable */
+require('../dist/cli.js');

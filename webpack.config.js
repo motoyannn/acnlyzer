@@ -1,6 +1,10 @@
+/* eslint-disable */
 module.exports = {
     mode: 'development',
-    entry: './acnlyzer.ts',
+    entry: {
+        acnlyzer: './src/acnlyzer.ts',
+        cli: './src/cli.ts'
+    },
     target: 'node',
     module: {
         rules: [
